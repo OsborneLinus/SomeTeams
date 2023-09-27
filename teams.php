@@ -47,16 +47,8 @@ $teams = [
 ];
 
 $numberOfTeams = count($teams); 
-
-echo "We have chosen " . $numberOfTeams . " teams to be apart of this website.";
-
-echo "Cities of the teams are: <br>";
-
-foreach($teams as $team => $teaminfo) {
-    $city = $teaminfo['city'];
-    echo "$team: $city <br>"; 
-}
-
 ?>
+<p class="numberOfTeams"> <?php echo "We have chosen " . $numberOfTeams . " teams to be apart of this website."; ?> </p>
+
 
 

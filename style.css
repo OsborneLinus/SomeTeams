@@ -1,5 +1,11 @@
-caption {
-    font-weight: bold;
+
+/*body {
+    background-color: #f0963d;
+}*/
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
 table {
@@ -43,3 +49,12 @@ table td {
     font-weight: bold;
 }
 
+.city {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.cities {
+    margin-top: 1px;
+}

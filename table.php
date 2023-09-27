@@ -3,8 +3,8 @@
     <tr>
         <th>Team</th>
         <th>League</th>
-        <th>Last Time Champion</th>
         <th>City</th>
+        <th>Last Time Champion</th>
         <th>Nickname</th>
         <th>Website</th>
     </tr>
