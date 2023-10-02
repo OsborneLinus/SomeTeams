@@ -19,7 +19,7 @@
         <?php else: ?> 
             <td></td> 
         <?php endif; ?> 
-        <td><?php echo $team['url'] ?></td>
+        <td><a href="<?php $team['url'] ?>"><?php echo $teamName; ?></a></td>
     </tr>
     <?php endforeach ?>
-</table>
+</table> 

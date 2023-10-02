@@ -3,6 +3,10 @@
     background-color: #f0963d;
 }*/
 
+.main-container {
+    background-color: grey;
+}
+
 h1 {
     display: flex;
     justify-content: center;
