@@ -4,12 +4,15 @@
 }*/
 
 .main-container {
-    background-color: grey;
+    display: flex;
+    flex-direction: column  ;
+    height: 900px;
 }
 
 h1 {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 table {
@@ -57,8 +60,13 @@ table td {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    align-items: center;
 }
 
 .cities {
     margin-top: 1px;
+}
+.numberOfTeams {
+    display: flex;
+    justify-content: center;
 }
